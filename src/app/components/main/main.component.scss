@@ -1,0 +1,54 @@
+@media screen and (max-width: 767px) {
+  .main-container {
+    display: grid;
+    margin: 3rem;
+    overflow: auto;
+    grid-template-columns: 1fr;
+
+
+    .main-container-information {
+      overflow-x: hidden;
+
+      img {
+        height: 3%;
+      }
+    }
+
+    .ads-container {
+      display: none;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .main-container {
+    display: grid;
+    margin: 3rem;
+    overflow: auto;
+    grid-template-columns: 3fr 1fr;
+
+
+    .main-container-information {
+      overflow-x: hidden;
+    }
+
+    .ads-container {
+    }
+  }
+}
+
+
+.main-container {
+  display: grid;
+  margin: 3rem;
+  overflow: auto;
+  grid-template-columns: 3fr 1fr; /* Dos columnas, la primera con un tamaño flexible y la segunda con un tamaño más pequeño */
+
+  .main-container-information {
+    overflow-x: hidden;
+  }
+
+  .ads-container {
+    /* Estilos para el contenedor de anuncios */
+  }
+}
